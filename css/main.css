@@ -5,6 +5,9 @@
   color: #7e865b;
   font-family: "Montserrat", sans-serif; }
 
+#langNav {
+  margin-left: 30vw; }
+
 .custom-toggler .navbar-toggler {
   border-color: #7e865b; }
 
@@ -35,4 +38,7 @@
   font-family: "Montserrat", sans-serif; }
 
 .workEx {
+  font-family: "Montserrat", sans-serif; }
+
+.techEx {
   font-family: "Montserrat", sans-serif; }
