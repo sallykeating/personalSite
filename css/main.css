@@ -1,8 +1,9 @@
 /* Sass Document */
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 .navbar .navbar-brand {
-  font-size: 30px;
-  color: #7e865b; }
+  font-size: 40px;
+  color: #7e865b;
+  font-family: "Montserrat", sans-serif; }
 
 .custom-toggler .navbar-toggler {
   border-color: #7e865b; }
@@ -29,3 +30,9 @@
   padding: 4vh; }
   .footerBar .downRes {
     color: black; }
+
+.eduEx {
+  font-family: "Montserrat", sans-serif; }
+
+.workEx {
+  font-family: "Montserrat", sans-serif; }
