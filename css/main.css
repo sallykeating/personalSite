@@ -1,0 +1,25 @@
+/* Sass Document */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+.navbar .navbar-brand {
+  font-size: 30px;
+  color: #7e865b; }
+
+.custom-toggler .navbar-toggler {
+  border-color: #7e865b; }
+
+.jumbotron {
+  background-color: #262626 !important;
+  font-family: "Source Code Pro", monospace;
+  color: white; }
+  .jumbotron .tronText {
+    background-color: black !important;
+    margin: 1vw;
+    padding: 3vw; }
+    .jumbotron .tronText .tagp {
+      color: hotpink; }
+    .jumbotron .tronText .tagh6 {
+      color: lightgreen;
+      margin-left: 2vw; }
+    .jumbotron .tronText .tagDesc {
+      margin-left: 100 !important;
+      margin-left: 5vw; }
