@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Sally Keating - Technical Ability</title>
+		<title>Sally Keating - Contact Me</title>
 
 		<!-- Bootstrap -->
 		<link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
@@ -71,27 +71,25 @@
 				</p>
 			</div>
 		</div>
-        <div class="container contactMe-form">
-<!--			TODO: make action page. -->
-            <form action="action_page.php">
-
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Subject" style="height:200px"></textarea>
-
-                <label for="subject">Message</label>
-                <textarea id="message" name="subject" placeholder="Message" style="height:200px"></textarea>
-
-                <input type="submit" value="Submit">
-
-            </form>
-        </div>
-
+		<div class="contactMe-form">
+			<div class="container">
+				<form action="action_page.php">
+					<label for="fname">First Name:</label>
+					<input type="text" id="fname" name="firstname" placeholder="Your name..">
+					<br>
+					<label for="lname">Last Name:</label>
+					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+					<br>
+					<label for="subject">Subject:</label>
+					<textarea id="subject" name="subject" placeholder="Subject" style="height:30px; width: 300px"></textarea>
+					<br>
+					<label for="subject">Message:</label>
+					<textarea id="message" name="subject" placeholder="Message" style="height:200px; width: 300px"></textarea>
+					<br>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
 
 		<hr>
 		<footer class="footerBar">
@@ -102,8 +100,12 @@
 			<br>
 			<br>
 
-			<button type="button" class="btn btn-dark">
+			<button type="button" class="btn btn-dark" onclick="window.location.href = 'https://www.linkedin.com/in/sally-keating-076b1314a/';">
 				<i class="fab fa-linkedin-in fa-2x"></i>
+			</button>
+			
+			<button type="button" class="btn btn-dark" onclick="window.location.href = 'https://github.com/sallykeating';">
+				<i class="fab fa-github fa-2x"></i>
 			</button>
 
 			<button type="button" class="btn btn-dark">
