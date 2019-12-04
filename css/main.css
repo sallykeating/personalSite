@@ -2,14 +2,14 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 .navbar .navbar-brand {
   font-size: 40px;
-  color: #7e865b;
+  color: #0080ff;
   font-family: "Montserrat", sans-serif; }
 
 #langNav {
   margin-left: 30vw; }
 
 .custom-toggler .navbar-toggler {
-  border-color: #7e865b; }
+  border-color: #0080ff; }
 
 .jumbotron {
   background-color: #262626 !important;
@@ -20,7 +20,7 @@
     margin: 1vw;
     padding: 3vw; }
     .jumbotron .tronText .tagp {
-      color: hotpink; }
+      color: #0080ff; }
     .jumbotron .tronText .tagh6 {
       color: lightgreen;
       margin-left: 2vw; }
