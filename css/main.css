@@ -1,17 +1,27 @@
 /* Sass Document */
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+/*
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 1;
+} */
+
 .navbar .navbar-brand {
   font-size: 40px;
   color: #0080ff;
   font-family: "Montserrat", sans-serif; }
 
 #langNav {
+    text-align: center;
   margin-left: 30vw; }
 
 .custom-toggler .navbar-toggler {
   border-color: #0080ff; }
 
 .jumbotron {
+    /* padding-top: 90px; */
   background-color: #262626 !important;
   font-family: "Source Code Pro", monospace;
   color: white; }
@@ -48,3 +58,26 @@
   padding-right: 10vw;
   padding-left: 10vw;
   text-align: center; }
+
+.projs{
+    text-align: center;
+    margin-left: 33vw;
+}
+
+@media (max-width: 980px) {
+    .projs{
+        margin-left: 0px;
+    }
+    #langNav{
+        margin-left: 0px;
+    }
+}
+/* .ux-ui{
+    display:block;
+}
+.web{
+    display:block;
+}
+.games{
+    display:block;
+} */

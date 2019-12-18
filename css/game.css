@@ -1,0 +1,143 @@
+canvas {
+    display:block;
+    border: 1px solid #d3d3d3;
+    background-color: yellow;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.instructions{
+    padding: 100px;
+}
+.welcomeTextMain{
+    font-size: 40px;
+}
+.welcomeText{
+    font-size: 24px;
+    padding: 100px;
+}
+#startScreen{
+    display:block;
+    width: 880px;
+    height: 680px;
+    background-color: lightpink;
+    text-size: 100px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.playButton{
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+#lostScreen{
+    display:none;
+    width: 880px;
+    height: 680px;
+    background-color: red;
+    text-size: 100px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#finishScreen{
+    display:none;
+    width: 880px;
+    height: 680px;
+    background-color: lightpink;
+    text-size: 100px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#finishScreenTwo{
+    display:none;
+    width: 880px;
+    height: 680px;
+    background-color: lightpink;
+    text-size: 100px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#finishScreenThree{
+    display:none;
+    width: 880px;
+    height: 680px;
+    background-color: lightpink;
+    text-size: 100px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#finishScreenFour{
+    display:none;
+    width: 880px;
+    height: 680px;
+    background-color: lightpink;
+    text-size: 100px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#finishScreenFive{
+    display:none;
+    width: 880px;
+    height: 680px;
+    background-color: lightpink;
+    text-size: 100px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#level1{
+    display:none;
+    font-weight: bold;
+    text-align: center;
+}
+#level2{
+    display:none;
+    font-weight: bold;
+    text-align: center;
+}
+#level3{
+    display:none;
+    font-weight: bold;
+    text-align: center;
+}
+#level4{
+    display:none;
+    font-weight: bold;
+    text-align: center;
+}
+#level5{
+    display:none;
+    font-weight: bold;
+    text-align: center;
+}
+.welcomeText{
+    vertical-align: middle;
+}
