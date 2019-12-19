@@ -1,26 +1,21 @@
-/* Sass Document */
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700)
-$headergreen:#0080ff
-$codeFont: 'Source Code Pro', monospace
-$typeFont: 'Montserrat', sans-serif
-
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 .navbar .navbar-brand
 	font-size: 40px
-	color: $headergreen
-	font-family: $typeFont
-
+	color: #0080ff
+	font-family: "Montserrat", sans-serif
 #langNav
+	text-align: center
 	margin-left: 30vw
-
-.custom-toggler .navbar-toggler
-	border-color: $headergreen
-
+	margin-left: 0px
+.custom-toggler
+	.navbar-toggler
+		border-color: #0080ff
 .jumbotron
-	background-color: rgba(38,38,38, 1.0)!important
-	font-family: $codeFont
+	background-color: #262626 !important
+	font-family: "Source Code Pro", monospace
 	color: white
 	.tronText
-		background-color: rgba(0,0,0, 1.0)!important
+		background-color: black !important
 		margin: 1vw
 		padding: 3vw
 		.tagp
@@ -29,26 +24,191 @@ $typeFont: 'Montserrat', sans-serif
 			color: lightgreen
 			margin-left: 2vw
 		.tagDesc
-			margin-left: 100!important
+			margin-left: 100 !important
 			margin-left: 5vw
-
 .footerBar
 	text-align: right
 	padding: 4vh
 	.downRes
 		color: black
-
 .eduEx
-	font-family: $typeFont
-
+	font-family: "Montserrat", sans-serif
 .workEx
-	font-family: $typeFont
-
+	font-family: "Montserrat", sans-serif
 .techEx
-	font-family: $typeFont
-
-.contactMe-form
-	font-family: $typeFont
-	padding-right: 10vw
-	padding-left: 10vw
+	font-family: "Montserrat", sans-serif
+input
+	outline: none
+	border: none
+	&::-webkit-input-placeholder
+		color: #bdbdd3
+	&:-moz-placeholder
+		color: #bdbdd3
+	&::-moz-placeholder
+		color: #bdbdd3
+	&:-ms-input-placeholder
+		color: #bdbdd3
+	&.input100
+		height: 62px
+		padding: 0 35px 0 35px
+textarea
+	outline: none
+	border: none
+	&::-webkit-input-placeholder
+		color: #bdbdd3
+	&:-moz-placeholder
+		color: #bdbdd3
+	&::-moz-placeholder
+		color: #bdbdd3
+	&:-ms-input-placeholder
+		color: #bdbdd3
+	&.input100
+		min-height: 169px
+		padding: 19px 35px 0 35px
+textarea:focus, input:focus
+	border-color: transparent !important
+button
+	outline: none !important
+	border: none
+	background: transparent
+	&:hover
+		cursor: pointer
+iframe
+	border: none !important
+.container
+	max-width: 1200px
+.container-contact100
+	width: 100%
+	display: -webkit-box
+	display: -webkit-flex
+	display: -moz-box
+	display: -ms-flexbox
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+	align-items: center
+	padding: 15px
+	position: relative
+	background-color: #f2f2f2
+.wrap-contact100
+	width: 550px
+	background: transparent
+	padding: 50px 0px 160px 0px
+.contact100-form
+	width: 100%
+.contact100-form-title
+	display: block
+	font-family: "Montserrat", sans-serif
+	font-size: 30px
+	color: #403866
+	line-height: 1.2
+	text-transform: uppercase
 	text-align: center
+	padding-bottom: 49px
+.wrap-input100
+	width: 100%
+	background-color: #fff
+	border-radius: 31px
+	margin-bottom: 16px
+	position: relative
+	z-index: 1
+.input100
+	position: relative
+	display: block
+	width: 100%
+	background: #fff
+	border-radius: 31px
+	font-family: "Montserrat", sans-serif
+	font-size: 18px
+	color: #8f8fa1
+	line-height: 1.2
+	&:focus
+		& + .focus-input100
+			width: calc(100% + 20px)
+.focus-input100
+	display: block
+	position: absolute
+	z-index: -1
+	width: 100%
+	height: 100%
+	top: 0
+	left: 50%
+	-webkit-transform: translateX(-50%)
+	-moz-transform: translateX(-50%)
+	-ms-transform: translateX(-50%)
+	-o-transform: translateX(-50%)
+	transform: translateX(-50%)
+	border-radius: 31px
+	background-color: #fff
+	pointer-events: none
+	-webkit-transition: all 0.4s
+	-o-transition: all 0.4s
+	-moz-transition: all 0.4s
+	transition: all 0.4s
+.container-contact100-form-btn
+	display: -webkit-box
+	display: -webkit-flex
+	display: -moz-box
+	display: -ms-flexbox
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+	padding-top: 10px
+.contact100-form-btn
+	display: -webkit-box
+	display: -webkit-flex
+	display: -moz-box
+	display: -ms-flexbox
+	display: flex
+	justify-content: center
+	align-items: center
+	padding: 0 20px
+	min-width: 150px
+	height: 62px
+	background-color: transparent
+	border-radius: 31px
+	font-family: "Montserrat", sans-serif
+	font-size: 16px
+	color: #fff
+	line-height: 1.2
+	text-transform: uppercase
+	-webkit-transition: all 0.4s
+	-o-transition: all 0.4s
+	-moz-transition: all 0.4s
+	transition: all 0.4s
+	position: relative
+	z-index: 1
+	&::before
+		content: ""
+		display: block
+		position: absolute
+		z-index: -1
+		width: 100%
+		height: 100%
+		top: 0
+		left: 50%
+		-webkit-transform: translateX(-50%)
+		-moz-transform: translateX(-50%)
+		-ms-transform: translateX(-50%)
+		-o-transform: translateX(-50%)
+		transform: translateX(-50%)
+		border-radius: 31px
+		background-color: #0080ff
+		pointer-events: none
+		-webkit-transition: all 0.4s
+		-o-transition: all 0.4s
+		-moz-transition: all 0.4s
+		transition: all 0.4s
+	&:hover
+		&:before
+			background-color: #005ab3
+			width: calc(100% + 20px)
+.projs
+	text-align: center
+	margin-left: 33vw
+@media
+	(max-width
+		&:
+			980px)
+				.projs{
+        margin-left: 0px
